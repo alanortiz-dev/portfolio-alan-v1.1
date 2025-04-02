@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Portafolio de Proyectos – Alan Ortiz
 
-## Getting Started
+¡Hola! Soy Alan Ortiz, desarrollador especializado en JavaScript y este repositorio es el corazón de mi portafolio. Aquí irás encontrando los proyectos en los que he trabajado (o estoy construyendo poco a poco), todos enfocados en funcionalidad, claridad de código y una pizca de diversión 🎉
 
-First, run the development server:
+---
+
+## ✨ Proyecto actual: **TaskFlow**
+
+Una pequeña app para gestionar tareas usando:
+
+- ⚛️ React (con Hooks como `useState`)
+- 💨 Tailwind CSS para estilos rápidos y responsivos
+- ⚙️ Next.js (estructura optimizada con la carpeta `/app`)
+- 🧪 Código modular y escalable pensado como base para proyectos más grandes
+
+Puedes agregar tareas, completarlas y ver cómo cambian con estilo. Perfecto como primer bloque de construcción del portafolio.
+
+---
+
+## 🛠️ Tecnologías que me gustan usar
+
+- **JavaScript**
+- **React + Next.js**
+- **Node.js**
+- **Tailwind CSS**
+- **Playwright** (para testing)
+- HTML + CSS puro cuando se necesita
+
+---
+
+## 📦 Cómo correr este proyecto
 
 ```bash
+git clone https://github.com/alanortiz-dev/portfolio-alan-v1.1.git
+cd portfolio-alan-v1.1
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abre [http://localhost:3000](http://localhost:3000) en tu navegador para verlo en acción ✨
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🙋‍♂️ Sobre mí
 
-## Learn More
+Me encanta resolver problemas con código. Me enfoco en escribir soluciones prácticas, limpias y mantenibles.
 
-To learn more about Next.js, take a look at the following resources:
+Si tienes un proyecto interesante o simplemente quieres platicar sobre tecnología, aquí me encuentras:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+[👉 Conecta conmigo en LinkedIn](https://www.linkedin.com/in/alanortizdev/)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+> *Este portafolio irá creciendo poco a poco, así que si estás por aquí… ¡vuélvete a dar una vuelta pronto! 😉*
