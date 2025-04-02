@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Variables para personalización futura (modo oscuro, etc.) */
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+/* Ajustes básicos para el layout */
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+/* ⚠️ Quitamos color y fondo para que Tailwind tenga el control */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Reset base */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* Enlaces */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Modo oscuro a nivel HTML si lo necesitas después */
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
